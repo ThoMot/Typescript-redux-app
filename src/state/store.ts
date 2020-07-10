@@ -1,4 +1,4 @@
-import { infoReducer } from './statehandler';
+import { infoReducer } from './info-reducer';
 import { combineReducers } from 'redux';
 
 

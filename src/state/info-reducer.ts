@@ -17,7 +17,8 @@ interface addInfoAction {
 
 type ActionTypes = addInfoAction
 
-function addInfo(info: Info) {
+//funksjon som kalles ved dispatch
+export function addInfo(info: Info) {
     return {
         type: ADD_INFO,
         payload: info
@@ -28,14 +29,14 @@ function addInfo(info: Info) {
 
 // reducer
 
-interface UserState {
+interface InitialState {
     user: {
         userName: string,
         description: string
     }
 }
 
-const initialState: UserState = {
+const initialState: InitialState = {
     user: {
         userName: '',
         description: ''
@@ -45,7 +46,7 @@ const initialState: UserState = {
 export function infoReducer(
     state = initialState,
     action: ActionTypes
-): UserState {
+): InitialState {
     switch (action.type) {
         case ADD_INFO:
             return {
