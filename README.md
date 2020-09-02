@@ -1,29 +1,5 @@
-This is an example project for setting up Redux with Typescript and React.
+## Example project for setting up Redux with Typescript and React.
 
-## Available Scripts
+The purpose of this repo is to provide an example of how a redux reducer can be set up with Typescript using hooks. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+No actions are currently implemented in this version of the repo as it was intended as a simple example project to get people started with redux reducers. More might be added to this repo at a later time.
